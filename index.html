@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>舒彦喆 - 个人主页</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            line-height: 1.6;
+            color: #333;
+            background-color: #f5f5f5;
+        }
+
+        nav {
+            background-color: #2c3e50;
+            padding: 1rem;
+            position: sticky;
+            top: 0;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+            list-style: none;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 0 1.5rem;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        section {
+            background: white;
+            margin: 2rem 0;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        h1, h2 {
+            color: #2c3e50;
+            margin-bottom: 1rem;
+        }
+
+        .education-item {
+            margin: 1.5rem 0;
+        }
+
+        .contact-info {
+            display: flex;
+            align-items: center;
+            margin: 1rem 0;
+        }
+
+        .contact-info i {
+            margin-right: 1rem;
+            font-size: 1.2rem;
+        }
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#about">个人简介</a></li>
+            <li><a href="#education">教育经历</a></li>
+            <li><a href="#contact">联系方式</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <section id="about">
+            <h1>舒彦喆</h1>
+            <p>华中农业大学 经济管理学院</p>
+            <p>生态环境政策与管理方向硕士研究生（2024级）</p>
+            <p>导师：宋明伟 副教授</p>
+            <p>研究方向聚焦于生态文明建设政策评估、环境治理体系创新与可持续发展管理。</p>
+        </section>
+
+        <section id="education">
+            <h2>教育经历</h2>
+            <div class="education-item">
+                <h3>华中农业大学</h3>
+                <p>硕士研究生 | 2024年入学</p>
+                <p>专业：农林经济管理（生态环境政策与管理方向）</p>
+                <p>导师：宋明伟 副教授</p>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>联系方式</h2>
+            <div class="contact-info">
+                <i class="fas fa-envelope"></i>
+                <p>邮箱：shuyanzhe@mail.hzau.edu.cn</p>
+            </div>
+            <div class="contact-info">
+                <i class="fab fa-linkedin"></i>
+                <p>领英：linkedin.com/in/shuyanzhe</p>
+            </div>
+            <div class="contact-info">
+                <i class="fab fa-github"></i>
+                <p>GitHub：github.com/shuyanzhe</p>
+            </div>
+        </section>
+    </div>
+
+    <footer style="text-align: center; padding: 1rem; background-color: #2c3e50; color: white;">
+        <p>&copy; 2024 舒彦喆 保留所有权利</p>
+    </footer>
+</body>
+</html>
